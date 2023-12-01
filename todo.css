@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: rgb(89, 154, 203);
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: -20px;
+}
+
+
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

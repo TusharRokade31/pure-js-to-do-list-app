@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="todo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <div class="main">
+        <h1>To do list</h1>
+        <p>Simple App to manage your daily to-dos</p>
+        <div>
+            <input type="text" onchange="setatt()" id="inp" placeholder="Enter to do here....">
+            <input type="date" id="inp-date" placeholder="Enter to do here....">
+            <button id="addbtn" onclick="addtodo()">Add</button>
+            <div class="todoContainer"></div>
+        </div>
+    </div>
+    <script src="toDo.js"></script>
+</body>
+</html>
